@@ -1,0 +1,72 @@
+#banner{
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/C22.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    border-radius: 0;
+}
+
+body{
+    font-family: 'Roboto Mono';
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.intro-section{
+    background-color: rgba(8, 8, 8, 0.918);
+}
+
+.custom-button{
+    background-color: rgba(61, 250, 184, 0.843);
+}
+
+.social-link a{
+    color: white;
+}
+
+.img-circle{
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10pt;
+    border-color: black;
+    width: 500px;
+}
+
+.about-me{
+    background-color: rgba(8, 8, 8, 0.918);
+}
+
+.button-skill{
+    background-color: none;
+    border-style: solid;
+    border-width: 2pt;
+    border-color: rgba(61, 250, 184, 0.843);
+    line-height: 9pt;
+}
+
+.text-description{
+    font-size: smaller;
+}
+
+.contact-me{
+    background-color: black;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.fa-heart{
+    color: grey;
+}
+
+.fa-heart:hover{
+    color: red;
+}
+
+
