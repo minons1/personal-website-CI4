@@ -1,0 +1,39 @@
+#banner{
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/Tcation.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    border-radius: 0;
+}
+
+body{
+    font-family: 'Roboto Mono';
+    background-color: rgba(8, 8, 8, 0.918);
+}
+
+.img-default{
+    width: 500px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.contact-me{
+    background-color: black;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.fa-heart{
+    color: grey;
+}
+
+.fa-heart:hover{
+    color: red;
+}

@@ -1,0 +1,51 @@
+#banner{
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/Gathering.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    border-radius: 0;
+}
+
+body{
+    font-family: 'Roboto Mono';
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.intro-section{
+    background-color: rgba(8, 8, 8, 0.918);
+}
+
+.img-default{
+    width: 500px;
+}
+
+.img-default-2{
+    height: 500px;
+}
+
+.city-hall{
+    background-color: rgba(8, 8, 8, 0.918);
+}
+
+
+.contact-me{
+    background-color: black;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.fa-heart{
+    color: grey;
+}
+
+.fa-heart:hover{
+    color: red;
+}

@@ -1,0 +1,59 @@
+#banner{
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/Transcendence.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    border-radius: 0;
+}
+
+body{
+    font-family: 'Roboto Mono';
+    background-color: rgba(8, 8, 8, 0.918);
+}
+
+.img-menu{
+    height: 350px;
+}
+.red-button{
+    border-color: red;
+    border-style: solid;
+    border-width: 1pt;
+}
+.yellow-button{
+    border-color: yellow;
+    border-style: solid;
+    border-width: 1pt;
+}
+.green-button{
+    border-color: green;
+    border-style: solid;
+    border-width: 1pt;
+}
+.blue-button{
+    border-color: blue;
+    border-style: solid;
+    border-width: 1pt;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.contact-me{
+    background-color: black;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.fa-heart{
+    color: grey;
+}
+
+.fa-heart:hover{
+    color: red;
+}
