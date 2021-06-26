@@ -9,11 +9,9 @@
     $( document ).ready(function() {
         $('.modal').on('show.bs.modal', function (e) {
             $('.modal .modal-dialog').attr('class', 'modal-dialog modal-dialog-centered  animate__animated animate__zoomIn');
-            console.log($('.modal .modal-dialog').attr('class'))
         })
         $('.modal').on('hide.bs.modal', function (e) {
             $('.modal .modal-dialog').attr('class', 'modal-dialog modal-dialog-centered  animate__animated animate__zoomOut');
-            console.log($('.modal .modal-dialog').attr('class'))
         })
     }); 
 </script>
@@ -144,7 +142,9 @@ foreach($blog_chunked as $row)
         </div>
     </div>
 </div>
-
+<?php
+}
+?>
 <!-- Add Story button -->
 <div data-toggle="tooltip" data-placement="top" title="Add New Story">
     <p type="button" data-toggle="modal" data-target="#addModal" class="float">
@@ -181,7 +181,4 @@ foreach($blog_chunked as $row)
         </div>
     </div>
 </div>
-<?php
-}
-?>
 <?= $this->endSection() ?>
