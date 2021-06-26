@@ -37,6 +37,11 @@ $routes->get('/profile', 'Home::profile');
 $routes->get('/hometown', 'Home::hometown');
 $routes->get('/tourist', 'Home::tourist');
 $routes->get('/food', 'Home::food');
+$routes->get('/blog', 'Blog::index');
+$routes->post('/blog/(:any)/delete', 'Blog::delete/$1');
+$routes->post('/blog/(:any)/update', 'Blog::update/$1');
+$routes->post('/blog/store', 'Blog::store');
+
 
 /*
  * --------------------------------------------------------------------

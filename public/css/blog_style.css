@@ -1,0 +1,61 @@
+#banner{
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/Tcation2.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    border-radius: 0;
+}
+
+body{
+    font-family: 'Roboto Mono';
+    background-color: rgba(8, 8, 8, 0.918);
+}
+
+.card-preview{
+    max-height : 80px
+}
+
+#story{
+    color : rgba(61, 250, 184, 0.843);
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:60px;
+	background-color:rgba(61, 250, 184, 0.843);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.contact-me{
+    background-color: black;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.fa-heart{
+    color: grey;
+}
+
+.fa-heart:hover{
+    color: red;
+}

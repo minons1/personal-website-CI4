@@ -18,6 +18,13 @@
     <?= $this->renderSection('css') ?>
 
     <!-- JS -->
+    <?= $this->renderSection('js') ?>
+
+    <!-- Animate CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/aec7d4e4dc.js"></script>
@@ -60,6 +67,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/tourist">Tourist</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -89,5 +99,6 @@
     </div>
 
 </body>
+
 
 </html>
